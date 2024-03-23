@@ -64,6 +64,5 @@ def get_image_color(path):
             print(dominant)
             return dominant
 
-path = "C:/Users/Martin/Documents/Work/Pgms/ofof.png"
-
+path = ""
 get_image_color(path)
