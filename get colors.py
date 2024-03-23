@@ -19,4 +19,5 @@ def getcolors(pat):
                 lcol.append(im.getpixel((x, y)))
     return lcol
 
-print(getcolors("C:/Users/Martin/Documents/Programmation/Python/Logo.png"))
+path = input("Enter a path : ")
+print(getcolors(path))
