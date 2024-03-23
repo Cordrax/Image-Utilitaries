@@ -1,0 +1,1 @@
+Set of utilitary programs to manipulate images, which comprehends removing a color, resize an image, replace colors, etc.
