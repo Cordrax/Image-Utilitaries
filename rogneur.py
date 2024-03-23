@@ -10,7 +10,8 @@ def rogneur(path):
                 imf.putpixel((x, y), (255, 255, 255))
             else:
                 imf.putpixel((x, y), (im.getpixel((x, y))))
-    imf.save("C:/Users/Martin/Documents/Work/Ibrahim/APK/ERBrognbe.png")
+    imf.save("rognee.png")
 
-rogneur("C:/Users/Martin/Documents/Work/Ibrahim/APK/ERD_Logo_white_background.png")
+path = input("Enter a path : ")
+rogneur(path)
 
