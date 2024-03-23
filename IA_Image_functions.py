@@ -64,5 +64,5 @@ def get_image_color(path):
             print(dominant)
             return dominant
 
-path = ""
+path = input("Enter a path : ")
 get_image_color(path)
